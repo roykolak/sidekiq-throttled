@@ -23,12 +23,12 @@ rvm:
   - 2.5
   - 2.6
   - 2.7
+  - 3.0
 
 matrix:
   fast_finish: true
   include:
-    -
-      rvm: 2.4
+    - rvm: 2.4
       env: SUITE="rubocop"
       gemfile: Gemfile
 
